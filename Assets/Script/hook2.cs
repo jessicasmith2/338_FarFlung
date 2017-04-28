@@ -27,7 +27,7 @@ public class hook2 : MonoBehaviour {
 		LR.useWorldSpace = true;
 
 		if (Input.GetButtonDown ("Fire1")) {
-			if (Physics.Raycast (cam.position, cam.forward, out hit) && hit.distance <= 80) {
+			if (Physics.Raycast (cam.position, cam.forward, out hit) && hit.distance <= 60) {
 				cc.mouseLook.XSensitivity = 0;
 				cc.mouseLook.YSensitivity = 0;
 				attached = true;
