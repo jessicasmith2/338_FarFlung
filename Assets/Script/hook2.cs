@@ -17,16 +17,22 @@ public class hook2 : MonoBehaviour {
 	public RigidbodyFirstPersonController cc;
 	public bool enabled;
 	public LineRenderer LR;
+	public AudioSource[] audio;
+	public AudioSource grapple;
 	
 
 	void Start () {
 		rb = GetComponent <Rigidbody> ();
+		audio = GetComponents<AudioSource>();
+		grapple = audio[1];
 	}
 
 	void Update () {
 		LR.useWorldSpace = true;
 
 		if (Input.GetButtonDown ("Fire1")) {
+			grapple.Play();
+
 			if (Physics.Raycast (cam.position, cam.forward, out hit) && hit.distance <= 60) {
 				cc.mouseLook.XSensitivity = 0;
 				cc.mouseLook.YSensitivity = 0;
