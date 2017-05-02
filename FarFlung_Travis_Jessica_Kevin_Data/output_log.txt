@@ -1,0 +1,72 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dumx.dll 21.21.13.7866]
+    Renderer: NVIDIA GeForce GTX 960
+    Vendor:   NVIDIA
+    VRAM:     4062 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0 ATOC=1 BC4=1 BC5=1
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.198 seconds
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\~School\17spring\dtc338\338_FarFlung\FarFlung_Travis_Jessica_Kevin_Data\Managed\System.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Setting to default shader.
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+WARNING: BC6H/BC7 texture format is not supported, decompressing texture
+The referenced script on this Behaviour (Game Object 'door_pneumatic (1)') is missing!
+ 
+(Filename:  Line: 1743)
+
+UnloadTime: 1.192654 ms
+Unable to find shaders used for the terrain engine. Please include Nature/Terrain/Diffuse shader in Graphics settings.
+ 
+(Filename:  Line: 389)
+
+IndexOutOfRangeException: Array index is out of range.
+  at charlie.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "door_pneumatic (1)/prop_doorPneumatic_mainLeft", Mesh asset path "" Mesh name "prop_doorPneumatic_mainLeft"
+ 
+(Filename:  Line: 0)
+
+Non-convex MeshCollider with non-kinematic Rigidbody is no longer supported in Unity 5.
+If you want to use a non-convex mesh either make the Rigidbody kinematic or remove the Rigidbody component. Scene hierarchy path "door_pneumatic (1)/prop_doorPneumatic_mainRight", Mesh asset path "" Mesh name "prop_doorPneumatic_mainRight"
+ 
+(Filename:  Line: 0)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: e18 -> priority: 1 
+  Thread -> id: 2150 -> priority: 1 
+  Thread -> id: 30a0 -> priority: 1 
+  Thread -> id: 994 -> priority: 1 
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 772)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
